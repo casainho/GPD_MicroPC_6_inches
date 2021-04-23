@@ -20,3 +20,6 @@ The points I hate about GPD MicroPC:
 Some extra notes:
 * **display blinks at lowest bightness setting**: for me, the lowest brightness is even higher and at this value I see the display blinking... luckly on Linux Ubuntu is easy to make all the image with less brightness and so I increase one step the display brightness to avoid the bliking and then I reduce by software with this command: xrandr --output DSI-1 --brightness 0.4<br>
 I even did customize keyboard shortcuts on Linux Ubuntu to execute the line, so with key combination I can increase or decrese that xrandr --output DSI-1 --brightness value
+
+Custom shortcuts:
+* ALT + SUPER + [1 - 9] --> xrandr --output DSI-1 --brightness 0.[1 - 9], example: ALT + SUPER + 5 --> xrandr --output DSI-1 --brightness 0.5
